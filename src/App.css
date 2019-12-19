@@ -52,6 +52,10 @@
   padding: 2rem;
 }
 
+.quarter__title{
+  margin-top: 33%;
+}
+
 .home__score,
 .away__score {
   font-family: "Ozone";
@@ -71,6 +75,7 @@
   background-color: var(--black);
   border: 2px solid white;
   border-radius: 6px;
+  margin-left: 4%;
 }
 
 .bottomRow {
@@ -110,13 +115,18 @@
   width: 50%;
   margin: 0 auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .homeButtons__touchdown,
 .homeButtons__fieldGoal,
 .awayButtons__touchdown,
-.awayButtons__fieldGoal {
+.awayButtons__fieldGoal,
+.newButtons {
   margin: 1rem;
   border-radius: 4px;
 }
+
+
+
+
